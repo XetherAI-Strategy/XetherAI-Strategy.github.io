@@ -7,8 +7,8 @@
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background-color: #f3f4f6; /* light grey */
-      color: #111827;
+      background-color: #0b1f16;
+      color: #e5e7eb;
       line-height: 1.6;
     }
 
@@ -17,7 +17,7 @@
       max-height: 320px;
       object-fit: cover;
       display: block;
-      border-bottom: 1px solid #e5e7eb;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
     }
 
     .container {
@@ -31,23 +31,24 @@
       font-weight: bold;
       margin-top: 30px;
       margin-bottom: 10px;
+      color: #ffffff;
     }
 
     .tagline {
       font-size: 18px;
-      color: #2563eb;
+      color: #34d399;
       margin-bottom: 40px;
     }
 
     h2 {
       margin-top: 50px;
       font-size: 22px;
-      color: #111827;
+      color: #ffffff;
     }
 
     p {
       font-size: 16px;
-      color: #374151;
+      color: #d1d5db;
     }
 
     .section {
@@ -55,8 +56,30 @@
     }
 
     .highlight {
-      color: #2563eb;
+      color: #34d399;
       font-weight: bold;
+    }
+
+    /* 🔵 LinkedIn button */
+    .linkedin-btn {
+      display: inline-block;
+      margin-top: 40px;
+      padding: 12px 20px;
+      background-color: #0a66c2;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 6px;
+      transition: 0.2s ease;
+    }
+
+    .linkedin-btn:hover {
+      background-color: #004182;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 60px;
     }
   </style>
 </head>
@@ -96,6 +119,15 @@
         To help organizations design and implement ethical, explainable, and strategy-driven AI systems that improve decision-making,
         reduce operational risk, and deliver measurable real-world outcomes.
       </p>
+    </div>
+
+    <!-- FOOTER + LINKEDIN -->
+    <div class="footer">
+      <a class="linkedin-btn"
+         href="https://www.linkedin.com/company/xether-ai"
+         target="_blank">
+        Visit Our LinkedIn
+      </a>
     </div>
 
   </div>
